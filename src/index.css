@@ -1,0 +1,139 @@
+*{
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  width: 100%;
+  height: 100vh;
+  
+}
+.navbar{
+  background-color: #fff !important;
+ 
+ 
+
+}
+.navbar a{
+   font-weight: bold !important;
+}
+.navbar a:hover{
+  color: deeppink  !important;
+
+}
+
+.navbar-brand{
+  color:aqua !important;
+  letter-spacing: 2px;
+  font-size: 1.9em !important;
+  font-weight: bold;
+
+}
+.main-active{
+  font-weight: bold;
+  border-bottom: 2px solid burlywood;
+}
+
+
+/* home section  */
+
+section{
+  margin-top: 100px ;
+  margin-left: 100px;
+ 
+  
+}
+.brand{
+  color: blue;
+}
+.btn{
+   color: blue;
+   font-weight: 500;
+   padding: 10px 30px;
+   /* background-color: purple; */
+   border: 2px solid blue;
+   border-radius: 30px;
+   letter-spacing: 2px;
+}
+.btn:hover{
+  background-color: blue !important;
+  color: #fff !important;
+  transition: 0.5s;
+}
+
+.img-com{
+  right: 50px;
+  position: absolute;
+  top: 150px;
+  
+}
+img{
+  width: 500px;
+  height: 400px;
+}
+.animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+/* services pages */
+
+.ser-h1{
+   text-align: center;
+   margin: 50px 0px;
+   color: purple;
+}
+
+/* card */
+
+
+
+.ser-box{
+  width: 100%;
+  text-align: center;
+  /* margin: 50px auto; */
+  display: flex;
+  /* flex-direction: row; */
+  
+  flex-wrap: nowrap; 
+  overflow: hidden;
+
+}
+
+.card{
+  width: 300px;
+  height: 500px;
+  border: 2px solid gray;
+  /* margin-right: 20px; */
+  margin: 50px 20px;
+ 
+  
+
+}
+/* contact page  */
+
+.con-heading{
+  text-align: center;
+}
+.btn{
+  border-radius: 10px;
+  /* color: #fff; */
+  /* background-color: blue; */
+}
+
+/* footer */
+.foot{
+   position: absolute;
+   bottom: 0px;
+  
+   
+}
+
