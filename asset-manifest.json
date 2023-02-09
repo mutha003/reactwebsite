@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reactwebsite/static/css/main.0020a75f.css",
+    "main.js": "/reactwebsite/static/js/main.824ea4e1.js",
+    "static/media/card.jpg": "/reactwebsite/static/media/card.40f1079e2578a74c40ee.jpg",
+    "static/media/sw.jpg": "/reactwebsite/static/media/sw.cb88a62248e7e05981d6.jpg",
+    "index.html": "/reactwebsite/index.html",
+    "main.0020a75f.css.map": "/reactwebsite/static/css/main.0020a75f.css.map",
+    "main.824ea4e1.js.map": "/reactwebsite/static/js/main.824ea4e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0020a75f.css",
+    "static/js/main.824ea4e1.js"
+  ]
+}
